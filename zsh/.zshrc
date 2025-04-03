@@ -6,6 +6,7 @@ alias zed="nvim ~/.zshrc && source ~/.zshrc"
 alias ghed="nvim ~/.config/ghostty/config"
 
 export VISUAL=nvim
+export TERM=ansi
 
 ### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
 export PATH="/Users/max/.rd/bin:$PATH"
