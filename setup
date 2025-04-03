@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env
 export XDG_CONFIG_HOME="$HOME"/.config
 mkdir -p "$XDG_CONFIG_HOME"
 mkdir -p "$XDG_CONFIG_HOME"/nixpkgs
@@ -8,5 +8,7 @@ nix-env -iA nixpkgs.myPackages
 rm -rf ~/.zshrc
 stow nvim
 stow zsh
+git config --global user.email "maxerik95@gmail.com"
+git config --global user.name "maxgitnet"
 source ~/.zshrc
 

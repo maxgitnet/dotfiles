@@ -7,7 +7,7 @@
                 ripgrep
                 fzf
                 stow
-
+                zsh
             ];
 
                 
