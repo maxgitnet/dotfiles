@@ -1,0 +1,634 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "fish": {
+        "pkg-path": "fish"
+      },
+      "fzf": {
+        "pkg-path": "fzf"
+      },
+      "neovim": {
+        "pkg-path": "neovim"
+      },
+      "ripgrep": {
+        "pkg-path": "ripgrep"
+      },
+      "stow": {
+        "pkg-path": "stow"
+      }
+    },
+    "hook": {
+      "on-activate": "    echo \"Started default flox environment!\"\n"
+    },
+    "profile": {
+      "zsh": "    echo Now in zsh\n"
+    },
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ],
+      "activate": {
+        "mode": "run"
+      }
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "fish",
+      "broken": false,
+      "derivation": "/nix/store/vqbqh681zilp5ypq1ngrib53s7n5f0vl-fish-4.0.1.drv",
+      "description": "Smart and user-friendly command line shell",
+      "install_id": "fish",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "name": "fish-4.0.1",
+      "pname": "fish",
+      "rev": "2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "rev_count": 778048,
+      "rev_date": "2025-04-02T08:40:04Z",
+      "scrape_date": "2025-04-03T01:11:03.205756Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.0.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/jl9vr5si42w43jqqi5s6yr0cclgcfwv3-fish-4.0.1-doc",
+        "out": "/nix/store/kc3wsjq8081nkcvl2a5nrrnngjvxkg8l-fish-4.0.1"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "fish",
+      "broken": false,
+      "derivation": "/nix/store/x6hdqi4vs01yxrsdid0rzska2bzrlgzk-fish-4.0.1.drv",
+      "description": "Smart and user-friendly command line shell",
+      "install_id": "fish",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "name": "fish-4.0.1",
+      "pname": "fish",
+      "rev": "2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "rev_count": 778048,
+      "rev_date": "2025-04-02T08:40:04Z",
+      "scrape_date": "2025-04-03T01:28:46.764289Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.0.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/263ig4x2whcdajq8q8fwzbrr8af9xyvw-fish-4.0.1-doc",
+        "out": "/nix/store/4nhi1jyl1dji0r1hlkq0wkxmf3yjgb1h-fish-4.0.1"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "fish",
+      "broken": false,
+      "derivation": "/nix/store/g6rchfnhban80agzkdhps1rllnkp6grs-fish-4.0.1.drv",
+      "description": "Smart and user-friendly command line shell",
+      "install_id": "fish",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "name": "fish-4.0.1",
+      "pname": "fish",
+      "rev": "2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "rev_count": 778048,
+      "rev_date": "2025-04-02T08:40:04Z",
+      "scrape_date": "2025-04-03T01:44:59.908381Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.0.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/78xaq179037z4d6lhhxk4v5lfqf9wpp4-fish-4.0.1-doc",
+        "out": "/nix/store/fja84x1y379sllq4rwmsv1bpyz89ga8n-fish-4.0.1"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "fish",
+      "broken": false,
+      "derivation": "/nix/store/ybv7nn01p4zhw2nm36wbrgy16iiyp1pd-fish-4.0.1.drv",
+      "description": "Smart and user-friendly command line shell",
+      "install_id": "fish",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "name": "fish-4.0.1",
+      "pname": "fish",
+      "rev": "2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "rev_count": 778048,
+      "rev_date": "2025-04-02T08:40:04Z",
+      "scrape_date": "2025-04-03T02:04:24.730085Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.0.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/71vcscnq0h9a8hbmf1mxqj1lizpdv8fc-fish-4.0.1-doc",
+        "out": "/nix/store/j2qz2d900y518k2hq6myl60g2vyh7l19-fish-4.0.1"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "fzf",
+      "broken": false,
+      "derivation": "/nix/store/ni30vb3jjpv15xswd3xzxw5fqykkayg8-fzf-0.61.0.drv",
+      "description": "Command-line fuzzy finder written in Go",
+      "install_id": "fzf",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "name": "fzf-0.61.0",
+      "pname": "fzf",
+      "rev": "2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "rev_count": 778048,
+      "rev_date": "2025-04-02T08:40:04Z",
+      "scrape_date": "2025-04-03T01:11:03.276311Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.61.0",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "man": "/nix/store/cj1pxy1dzklvkvfqwhivi9909jxaqd22-fzf-0.61.0-man",
+        "out": "/nix/store/0iawvrsfhcj9lvyn14wg6asv0yn4ljzb-fzf-0.61.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "fzf",
+      "broken": false,
+      "derivation": "/nix/store/1bdcbdjc4f9big02xjjmvfc724wa16gk-fzf-0.61.0.drv",
+      "description": "Command-line fuzzy finder written in Go",
+      "install_id": "fzf",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "name": "fzf-0.61.0",
+      "pname": "fzf",
+      "rev": "2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "rev_count": 778048,
+      "rev_date": "2025-04-02T08:40:04Z",
+      "scrape_date": "2025-04-03T01:28:46.899604Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.61.0",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "man": "/nix/store/nddq5a1p07vy4hbn38655frfwglbd6vw-fzf-0.61.0-man",
+        "out": "/nix/store/3kbyqibpyy0hk6qf8sq426ccrcgzsamw-fzf-0.61.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "fzf",
+      "broken": false,
+      "derivation": "/nix/store/dwxk55grrpxsk5ivmnm7hs8yzgl9an28-fzf-0.61.0.drv",
+      "description": "Command-line fuzzy finder written in Go",
+      "install_id": "fzf",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "name": "fzf-0.61.0",
+      "pname": "fzf",
+      "rev": "2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "rev_count": 778048,
+      "rev_date": "2025-04-02T08:40:04Z",
+      "scrape_date": "2025-04-03T01:44:59.980153Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.61.0",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "man": "/nix/store/ay161gxi64lar59dyvfjplk9jffyz86v-fzf-0.61.0-man",
+        "out": "/nix/store/imxh3hn8an4dw13lkhd60bqs2fww48qa-fzf-0.61.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "fzf",
+      "broken": false,
+      "derivation": "/nix/store/dhnjvhhm88v1bdfmmzygwywksbic565b-fzf-0.61.0.drv",
+      "description": "Command-line fuzzy finder written in Go",
+      "install_id": "fzf",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "name": "fzf-0.61.0",
+      "pname": "fzf",
+      "rev": "2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "rev_count": 778048,
+      "rev_date": "2025-04-02T08:40:04Z",
+      "scrape_date": "2025-04-03T02:04:24.875479Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.61.0",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "man": "/nix/store/909nyv9nnqv2zql7x5lcfdrqg7h9wwxn-fzf-0.61.0-man",
+        "out": "/nix/store/50sdwcp5aw8scrrrdkr2lrwcnid6h9k7-fzf-0.61.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "neovim",
+      "broken": false,
+      "derivation": "/nix/store/mq2m32rw967c3cy8zzngfrqyd4lf01fm-neovim-0.11.0.drv",
+      "description": "Vim text editor fork focused on extensibility and agility",
+      "install_id": "neovim",
+      "license": "[ Apache-2.0, Vim ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "name": "neovim-0.11.0",
+      "pname": "neovim",
+      "rev": "2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "rev_count": 778048,
+      "rev_date": "2025-04-02T08:40:04Z",
+      "scrape_date": "2025-04-03T01:11:05.580323Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.11.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/4ch16nz6lwmzlxhwr2lwc3wqy7khxbks-neovim-0.11.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "neovim",
+      "broken": false,
+      "derivation": "/nix/store/3n2zv3avnnni208970ax1nl4n1rvp85s-neovim-0.11.0.drv",
+      "description": "Vim text editor fork focused on extensibility and agility",
+      "install_id": "neovim",
+      "license": "[ Apache-2.0, Vim ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "name": "neovim-0.11.0",
+      "pname": "neovim",
+      "rev": "2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "rev_count": 778048,
+      "rev_date": "2025-04-02T08:40:04Z",
+      "scrape_date": "2025-04-03T01:28:56.322561Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.11.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/8av5ivxr1x3cymnbdfvf1izbx7998iiq-neovim-0.11.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "neovim",
+      "broken": false,
+      "derivation": "/nix/store/6iwdvf5r9zr921l64lg0r5484zcqs1v0-neovim-0.11.0.drv",
+      "description": "Vim text editor fork focused on extensibility and agility",
+      "install_id": "neovim",
+      "license": "[ Apache-2.0, Vim ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "name": "neovim-0.11.0",
+      "pname": "neovim",
+      "rev": "2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "rev_count": 778048,
+      "rev_date": "2025-04-02T08:40:04Z",
+      "scrape_date": "2025-04-03T01:45:02.362248Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.11.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/5bd60mhl94s6gl1cqi2xjra0ad8v2cdp-neovim-0.11.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "neovim",
+      "broken": false,
+      "derivation": "/nix/store/10kfdi2ja4dzy6bl94sadjx59z98r2my-neovim-0.11.0.drv",
+      "description": "Vim text editor fork focused on extensibility and agility",
+      "install_id": "neovim",
+      "license": "[ Apache-2.0, Vim ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "name": "neovim-0.11.0",
+      "pname": "neovim",
+      "rev": "2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "rev_count": 778048,
+      "rev_date": "2025-04-02T08:40:04Z",
+      "scrape_date": "2025-04-03T02:04:35.715488Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.11.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/97cka40y26y30mza1v4gfbvlbp5a2a42-neovim-0.11.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "ripgrep",
+      "broken": false,
+      "derivation": "/nix/store/nchxq8ffvjl7z6r4pfvdq389w2q3z8wh-ripgrep-14.1.1.drv",
+      "description": "Utility that combines the usability of The Silver Searcher with the raw speed of grep",
+      "install_id": "ripgrep",
+      "license": "[ Unlicense, MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "name": "ripgrep-14.1.1",
+      "pname": "ripgrep",
+      "rev": "2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "rev_count": 778048,
+      "rev_date": "2025-04-02T08:40:04Z",
+      "scrape_date": "2025-04-03T01:11:31.383265Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "14.1.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/zqhlsfg3n47hlq95wwwf4jgp6b4kmkw1-ripgrep-14.1.1"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "ripgrep",
+      "broken": false,
+      "derivation": "/nix/store/daqdlrgk7vmbpfyi9975b9p7wnw7qfd8-ripgrep-14.1.1.drv",
+      "description": "Utility that combines the usability of The Silver Searcher with the raw speed of grep",
+      "install_id": "ripgrep",
+      "license": "[ Unlicense, MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "name": "ripgrep-14.1.1",
+      "pname": "ripgrep",
+      "rev": "2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "rev_count": 778048,
+      "rev_date": "2025-04-02T08:40:04Z",
+      "scrape_date": "2025-04-03T01:29:37.864107Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "14.1.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/hf38216d036k3qb2a7mhdjnm9b3cw67l-ripgrep-14.1.1"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "ripgrep",
+      "broken": false,
+      "derivation": "/nix/store/1l3rys9k54i77z6six9fg03gv8i48skd-ripgrep-14.1.1.drv",
+      "description": "Utility that combines the usability of The Silver Searcher with the raw speed of grep",
+      "install_id": "ripgrep",
+      "license": "[ Unlicense, MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "name": "ripgrep-14.1.1",
+      "pname": "ripgrep",
+      "rev": "2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "rev_count": 778048,
+      "rev_date": "2025-04-02T08:40:04Z",
+      "scrape_date": "2025-04-03T01:45:28.054163Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "14.1.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/38dfkpikydr5yai23ns7j1c07k42ddkf-ripgrep-14.1.1"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "ripgrep",
+      "broken": false,
+      "derivation": "/nix/store/nscfc4dd2ylb5wl6rxzwrg36xlq8aj9x-ripgrep-14.1.1.drv",
+      "description": "Utility that combines the usability of The Silver Searcher with the raw speed of grep",
+      "install_id": "ripgrep",
+      "license": "[ Unlicense, MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "name": "ripgrep-14.1.1",
+      "pname": "ripgrep",
+      "rev": "2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "rev_count": 778048,
+      "rev_date": "2025-04-02T08:40:04Z",
+      "scrape_date": "2025-04-03T02:05:18.737456Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "14.1.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/sbn6iya0mr3z14xvrz8s4ink4mi6w7in-ripgrep-14.1.1"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "stow",
+      "broken": false,
+      "derivation": "/nix/store/sjjr1qh5qahld3wld9xcn7gykxq8d1jl-stow-2.4.1.drv",
+      "description": "Tool for managing the installation of multiple software packages in the same run-time directory tree",
+      "install_id": "stow",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "name": "stow-2.4.1",
+      "pname": "stow",
+      "rev": "2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "rev_count": 778048,
+      "rev_date": "2025-04-02T08:40:04Z",
+      "scrape_date": "2025-04-03T01:11:43.047873Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.4.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/wwrln066k9h5vylllkdd3h9mjjlzjy1w-stow-2.4.1"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "stow",
+      "broken": false,
+      "derivation": "/nix/store/pm4iw6mqy07qwz5wh9v7wgsp3kp3q20g-stow-2.4.1.drv",
+      "description": "Tool for managing the installation of multiple software packages in the same run-time directory tree",
+      "install_id": "stow",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "name": "stow-2.4.1",
+      "pname": "stow",
+      "rev": "2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "rev_count": 778048,
+      "rev_date": "2025-04-02T08:40:04Z",
+      "scrape_date": "2025-04-03T01:29:54.928257Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.4.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/bzjkl7vkrr1a9ii5m1a8caapaqmw6xg0-stow-2.4.1"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "stow",
+      "broken": false,
+      "derivation": "/nix/store/1ps3zj038c6qnzdw64np18n2pq0g2nj6-stow-2.4.1.drv",
+      "description": "Tool for managing the installation of multiple software packages in the same run-time directory tree",
+      "install_id": "stow",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "name": "stow-2.4.1",
+      "pname": "stow",
+      "rev": "2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "rev_count": 778048,
+      "rev_date": "2025-04-02T08:40:04Z",
+      "scrape_date": "2025-04-03T01:45:39.802215Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.4.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/7wig2q07gii8bqiiawy0ny3wwqygdw64-stow-2.4.1"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "stow",
+      "broken": false,
+      "derivation": "/nix/store/v4s6kfn0hlkm0pnamz96rl5hnvxcvhc0-stow-2.4.1.drv",
+      "description": "Tool for managing the installation of multiple software packages in the same run-time directory tree",
+      "install_id": "stow",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "name": "stow-2.4.1",
+      "pname": "stow",
+      "rev": "2c8d3f48d33929642c1c12cd243df4cc7d2ce434",
+      "rev_count": 778048,
+      "rev_date": "2025-04-02T08:40:04Z",
+      "scrape_date": "2025-04-03T02:05:36.287659Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.4.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/0f9wz5929cbvincyix6gpzxw33swd2ql-stow-2.4.1"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
