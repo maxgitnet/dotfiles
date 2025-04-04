@@ -5,4 +5,5 @@ alias ghed="nvim ~/.config/ghostty/config"
 
 export VISUAL=nvim
 export TERM=ansi
+eval "$(flox activate -m run)"
 
