@@ -1,2 +1,3 @@
 theme = Batman
 background-opacity = 0.95
+window-padding-x = 10
